@@ -23,3 +23,19 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+
+@media screen and (min-width: 1400px) {
+    :root {
+        --h1-font: 4rem;
+        --h2-font: 1.5rem;
+        --p-font: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --h1-font: 2rem;
+        --h2-font: 0.8rem;
+        --p-font: 0.50rem;
+    }
+}
