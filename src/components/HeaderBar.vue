@@ -1,35 +1,43 @@
 <script>
+import {useRoute} from 'vue-router';
+
 export default {
   name: 'HeaderBar',
+  setup() {
+    const route = useRoute();
+    return {
+      route
+    };
+  },
   mounted() {
-    let menu = document.querySelector('#menu-icon')
-    let navbar = document.querySelector('.navbar')
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
 
     menu.onclick = () => {
-      menu.classList.toggle('bx-x')
-      navbar.classList.toggle('open')
-    }
+      menu.classList.toggle('bx-x');
+      navbar.classList.toggle('open');
+    };
 
     window.onscroll = () => {
-      menu.classList.remove('bx-x')
-      navbar.classList.remove('open')
-    }
+      menu.classList.remove('bx-x');
+      navbar.classList.remove('open');
+    };
   }
 }
 </script>
 
 <template>
   <header>
-    <router-link to="/" class="logo">
+    <router-link to="/" :class="{ active: route.path === '/' }" class="logo">
       <h2>NICOLAS LOISON</h2>
     </router-link>
 
     <ul class="navbar">
       <li>
-        <router-link to="/" class="active">Home</router-link>
+        <router-link to="/" :class="{ active: route.path === '/' }">Home</router-link>
       </li>
       <li>
-        <router-link to="/projects">Projects</router-link>
+        <router-link to="/projects" :class="{ active: route.path === '/projects' }">Projects</router-link>
       </li>
     </ul>
 
@@ -52,6 +60,7 @@ header {
   background: var(--bg-color);
   box-shadow: 0 0.4rem 30rem rgba(0, 0, 0, 0.1);
   padding: 20px 14%;
+  margin-top: 10px;
   transition: all ease 0.52s;
 }
 
