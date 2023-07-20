@@ -18,16 +18,19 @@ export default {
 }
 </script>
 
-
 <template>
   <header>
-    <a href="#/" class="logo">
+    <router-link to="/" class="logo">
       <h2>NICOLAS LOISON</h2>
-    </a>
+    </router-link>
 
     <ul class="navbar">
-      <li><a href="#/" class="active">Home</a></li>
-      <li><a href="#/projects">Projects</a></li>
+      <li>
+        <router-link to="/" class="active">Home</router-link>
+      </li>
+      <li>
+        <router-link to="/projects">Projects</router-link>
+      </li>
     </ul>
 
     <div class="header-icons">
