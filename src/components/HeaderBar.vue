@@ -21,13 +21,13 @@ export default {
 
 <template>
   <header>
-    <a href="/" class="logo">
+    <a href="#/" class="logo">
       <h2>NICOLAS LOISON</h2>
     </a>
 
     <ul class="navbar">
-      <li><a href="/" class="active">Home</a></li>
-      <li><a href="/projects">Projects</a></li>
+      <li><a href="#/" class="active">Home</a></li>
+      <li><a href="#/projects">Projects</a></li>
     </ul>
 
     <div class="header-icons">
