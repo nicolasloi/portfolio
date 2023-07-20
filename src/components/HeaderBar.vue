@@ -31,7 +31,7 @@ export default {
     </ul>
 
     <div class="header-icons">
-      <div class="bx bx-menu" id="menu-icon"><img src="src/assets/menu-icon.svg" alt="icon menu burger"></div>
+      <div class="bx bx-menu" id="menu-icon"><img src="../assets/menu-icon.svg" alt="icon menu burger"></div>
     </div>
   </header>
 </template>
