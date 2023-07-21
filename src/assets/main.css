@@ -18,12 +18,23 @@
     --h2-font: 1rem;
     --p-font: 0.75rem;
     --nav-font: 1rem;
+    --picon-font: 0.9375rem;
 
 }
 
 body {
     background: var(--bg-color);
     color: var(--text-color);
+}
+
+section {
+    padding: 85px 18% 65px;
+}
+
+@media screen and (max-width: 1023px) {
+    section {
+        padding: 65px 4% 55px;
+    }
 }
 
 @media screen and (min-width: 1400px) {

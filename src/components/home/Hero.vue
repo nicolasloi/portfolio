@@ -29,14 +29,24 @@ export default {};
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  justify-items: center;
   gap: 2rem;
+}
+
+
+.hero-img {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
 }
 
 .hero-img img {
   position: relative;
-  height: 100%;
+  height: auto;
   width: 100%;
+  max-width: 70%;
 }
 
 .hero-img img::before {
@@ -45,7 +55,7 @@ export default {};
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: red;
+  background-color: var(--bg-color);
   animation: showRight 1s ease forwards;
   animation-delay: 1.4s;
 }

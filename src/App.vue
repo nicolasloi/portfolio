@@ -19,7 +19,4 @@ export default {
 </template>
 
 <style scoped>
-.container {
-  margin-top: 80px;
-}
 </style>
