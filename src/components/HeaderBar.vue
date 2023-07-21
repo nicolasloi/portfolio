@@ -78,7 +78,7 @@ header {
   position: relative;
   margin: 0px 15px;
   padding: 5px 5px;
-  font-size: var(--h2-font);
+  font-size: var(--nav-font);
   font-weight: 500;
   color: var(--text-color);
   transition: all ease 0.5s;
