@@ -1,10 +1,12 @@
 <script>
 import HeaderBar from "@/components/HeaderBar.vue";
+import FooterBar from "@/components/FooterBar.vue";
 
 export default {
   name: 'App',
   components: {
-    HeaderBar
+    HeaderBar,
+    FooterBar
   }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
     <div class="container">
       <router-view></router-view>
     </div>
+    <FooterBar />
   </div>
 </template>
 
