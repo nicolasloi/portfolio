@@ -224,6 +224,7 @@ h2 span {
 
   .catchphrase {
     font-size: 1rem;
+    width: 20.5rem;
   }
 }
 </style>

@@ -55,6 +55,7 @@ export default {};
   right: 0;
   width: 100%;
   height: 100%;
+  max-width: 70%;
   background-color: var(--bg-color);
   animation: showRight 1s ease forwards;
   animation-delay: 1.4s;
@@ -170,6 +171,24 @@ export default {};
 .btn2:hover {
   transform: scale(1.1) translateX(5px);
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1023px) {
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: block;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+  .hero-img {
+    display: none;
+  }
+}
+
 /* keyframes animation */
 
 @keyframes showRight {
