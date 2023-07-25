@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 h2 {
+  margin-top: 3rem;
   font-size: var(--h1-font);
   font-weight: 500;
 }

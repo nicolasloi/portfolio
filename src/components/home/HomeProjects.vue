@@ -53,9 +53,22 @@ export default {};
 
 <style scoped>
   .projects{
+    position: relative;
     display: flex;
     justify-items: center;
     flex-direction: column;
+  }
+
+  .projects::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    animation: showRight 2s ease forwards;
+    animation-delay: 1.9s;
   }
 
   h2 {
@@ -132,6 +145,14 @@ export default {};
 
   .btn:hover {
     transform: scale(1.1) translateX(-5px);
+  }
+
+  /* keyframes animation */
+
+  @keyframes showRight {
+    100% {
+      width: 0;
+    }
   }
 
 </style>

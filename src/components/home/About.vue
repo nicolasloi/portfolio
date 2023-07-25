@@ -40,68 +40,78 @@ export default {};
       </div>
     </div>
 
-    <div class="grid-container-about">
-
       <div class="experience">
-        <h3 class="experience-title">Professional experience</h3>
+      <h3 class="experience-title">Professional experience</h3>
 
-        <div class="experience-list">
-          <div class="experience-item">
-            <div class="date">
+      <div class="experience-list">
+        <div class="experience-item">
+          <div class="date">
             <h4>IT apprentices - Application development orientation</h4>
             <p>Sarting 08.2022</p>
-            </div>
-            <p>Carrying out projects independently and as part of a team</p>
-            <p class="lieu">Jobtrek Foundation - Lausanne</p>
           </div>
-          <div class="experience-item">
-            <div class="date">
-              <h4>Computer technician - 3 day course</h4>
-              <p>03.2022</p>
-            </div>
-            <p>customer support</p>
-            <p class="lieu">Meanquest - Ecublens</p>
+          <p>Carrying out projects independently and as part of a team</p>
+          <p class="lieu">Jobtrek Foundation - Lausanne</p>
+        </div>
+        <div class="experience-item">
+          <div class="date">
+            <h4>Computer technician - 3 day course</h4>
+            <p>03.2022</p>
           </div>
-          <div class="experience-item">
-            <div class="date">
-              <h4>Computer specialist - 2 day course</h4>
-              <p>11.2021</p>
-            </div>
-            <p>IT systems management</p>
-            <p class="lieu">Clinique La Source - Lausanne</p>
+          <p>customer support</p>
+          <p class="lieu">Meanquest - Ecublens</p>
+        </div>
+        <div class="experience-item">
+          <div class="date">
+            <h4>Computer specialist - 2 day course</h4>
+            <p>11.2021</p>
           </div>
-          <div class="experience-item">
-            <div class="date">
+          <p>IT systems management</p>
+          <p class="lieu">Clinique La Source - Lausanne</p>
+        </div>
+        <div class="experience-item">
+          <div class="date">
             <h4>Computer specialist - 1 day course</h4>
-              <p>10.2021</p>
-            </div>
-            <p>Discovering the basics of development</p>
-            <p class="lieu">Liip SA - Fribourg</p>
+            <p>10.2021</p>
           </div>
+          <p>Discovering the basics of development</p>
+          <p class="lieu">Liip SA - Fribourg</p>
         </div>
       </div>
-
-      <div class="hobbies">
-        <h3 class="hobbies-title">Hobbies</h3>
-        <div class="hobbies-list">
-          <p>Football</p>
-          <p>Digital</p>
-          <p>gym</p>
-        </div>
-      </div>
-
     </div>
+
+    <div class="hobbies">
+      <h3 class="hobbies-title">Hobbies</h3>
+      <div class="hobbies-list">
+        <p>Football</p>
+        <p>Digital</p>
+        <p>gym</p>
+      </div>
+    </div>
+
   </section>
 </template>
 
 <style scoped>
-h2 {
+.about h2 {
+  position: relative;
   font-size: var(--h1-font);
   font-weight: 500;
 }
 
-h2 span {
+.about h2 span {
   color: var(--primary-color);
+}
+
+h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  animation: showRight 2s ease forwards;
+  animation-delay: 1.6s;
 }
 
 .container-icon {
@@ -127,9 +137,22 @@ h2 span {
 }
 
 .group-icon {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.group-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  animation: showRight 2s ease forwards;
+  animation-delay: 1.6s;
 }
 
 #github {
@@ -144,24 +167,31 @@ h2 span {
 }
 
 .catchphrase {
+  position: relative;
   margin-top: 2rem;
   width: 26.5rem;
   font-weight: 400;
   font-size: 1.25rem;
 }
 
-.grid-container-about {
-  display: grid;
-  grid-template-columns: 65% 35%;
-  gap: 2rem;
+.catchphrase::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.3s;
 }
 
-.grid-container-about h3 {
-  font-size: var(--h2-font)  ;
+.about h3 {
+  font-size: var(--h2-font);
 }
 
-.grid-container-about p {
-  font-size: var(--p-font)  ;
+.about p {
+  font-size: var(--p-font);
 }
 
 .experience-list {
@@ -171,22 +201,53 @@ h2 span {
   gap: 20px;
 }
 
+.experience {
+  position: relative;
+}
+
+.experience::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.6s;
+}
+
+
 .date {
   display: flex;
   justify-content: space-between;
+
 }
 
 .date p {
+  text-align: right;
   color: var(--primary-color);
   font-weight: 700;
 }
 
 .hobbies {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   gap: 20px;
-  text-align: right;
+  margin-top: 3rem;
+}
+
+.hobbies::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  animation: showRight 2s ease forwards;
+  animation-delay: 1.9s;
 }
 
 .lieu {
@@ -198,6 +259,7 @@ h2 span {
   .grid-container-about {
     display: block;
   }
+
   .hobbies {
     display: flex;
     margin-top: 4rem;
@@ -225,6 +287,14 @@ h2 span {
   .catchphrase {
     font-size: 1rem;
     width: 20.5rem;
+  }
+}
+
+/* keyframes animation */
+
+@keyframes showRight {
+  100% {
+    width: 0;
   }
 }
 </style>
