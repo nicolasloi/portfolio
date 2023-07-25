@@ -59,7 +59,7 @@ export default {};
   height: 100%;
   background-color: var(--bg-color);
   animation: showRight 2s ease forwards;
-  animation-delay: 1s;
+  animation-delay: 0.8s;
 }
 
 .hero-text h1 {
