@@ -14,8 +14,10 @@ export default {};
       </div>
     </div>
 
+    <div class="anime">
     <div class="hero-img">
       <img src="../../assets/hero_bg.png" alt="blue spot">
+    </div>
     </div>
   </section>
 </template>
@@ -34,8 +36,8 @@ export default {};
 
 
 .hero-img {
-  display: flex;
   position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: auto;
@@ -43,22 +45,21 @@ export default {};
 }
 
 .hero-img img {
-  position: relative;
   height: auto;
   width: 100%;
   max-width: 70%;
 }
 
-.hero-img img::before {
+.hero-img::before {
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
   height: 100%;
-  max-width: 70%;
   background-color: var(--bg-color);
-  animation: showRight 1s ease forwards;
-  animation-delay: 1.4s;
+  animation: showRight 2s ease forwards;
+  animation-delay: 1s;
 }
 
 .hero-text h1 {
