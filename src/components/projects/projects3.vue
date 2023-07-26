@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-  <h2>test</h2>
+  <h2>test3</h2>
 </template>
 
 <style scoped>
