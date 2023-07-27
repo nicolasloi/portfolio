@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "deploy": "node Scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "execa": "latest"
