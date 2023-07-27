@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/",
+    "format": "prettier --write src/"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
@@ -19,5 +19,8 @@
     "execa": "^7.2.0",
     "prettier": "^2.8.8",
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "vue-router": "^4.2.4"
   }
 }
