@@ -8,10 +8,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "deploy": "node Scripts/gh-pages-deploy.js"
-  },
-  "dependencies": {
-    "execa": "latest"
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
@@ -19,6 +16,7 @@
     "@vue/eslint-config-prettier": "^7.1.0",
     "eslint": "^8.39.0",
     "eslint-plugin-vue": "^9.11.0",
+    "execa": "^7.2.0",
     "prettier": "^2.8.8",
     "vite": "^4.3.9"
   }
