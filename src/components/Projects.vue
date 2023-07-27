@@ -2,12 +2,14 @@
 import movieManager from "@/components/projects/movieManager.vue";
 import umbrella from "@/components/projects/umbrella.vue";
 import jobtrekSuivis from "@/components/projects/jobtrekSuivis.vue";
+import savoria from "@/components/projects/savoria.vue";
 
 export default {
   components: {
     movieManager,
     umbrella,
-    jobtrekSuivis
+    jobtrekSuivis,
+    savoria
   },
 };
 </script>
@@ -19,6 +21,7 @@ export default {
       <movieManager />
       <umbrella />
       <jobtrekSuivis />
+      <savoria />
     </div>
   </section>
 </template>
