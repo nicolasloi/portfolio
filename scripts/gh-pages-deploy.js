@@ -1,14 +1,14 @@
-// eslint-disable-next-line no-undef
-const execa = require("execa");
-// eslint-disable-next-line no-undef
-const fs = require("fs");
+/* eslint-disable no-console */
+require = require("esm")(module)(module);
+const { default: execa } = require("execa");
+const fs = require("fs").promises;
 
 (async () => {
     try {
         await execa("git", ["checkout", "--orphan", "gh-pages"]);
         console.log("Building started...");
         await execa("npm", ["run", "build"]);
-        const folderName = fs.existsSync("dist") ? "dist" : "build";
+        const folderName = await fs.exists("dist") ? "dist" : "build";
         await execa("git", ["--work-tree", folderName, "add", "--all"]);
         await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
         console.log("Pushing to gh-pages...");
@@ -19,7 +19,6 @@ const fs = require("fs");
         console.log("Successfully deployed, check your settings");
     } catch (e) {
         console.log(e.message);
-        // eslint-disable-next-line no-undef
         process.exit(1);
     }
 })();
