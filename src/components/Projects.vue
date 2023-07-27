@@ -1,13 +1,13 @@
 <script>
-import projects1 from "@/components/projects/projects1.vue";
-import projects2 from "@/components/projects/projects2.vue";
-import projects3 from "@/components/projects/projects3.vue";
+import movieManager from "@/components/projects/movieManager.vue";
+import umbrella from "@/components/projects/umbrella.vue";
+import jobtrekSuivis from "@/components/projects/jobtrekSuivis.vue";
 
 export default {
   components: {
-    projects1,
-    projects2,
-    projects3
+    movieManager,
+    umbrella,
+    jobtrekSuivis
   },
 };
 </script>
@@ -16,9 +16,9 @@ export default {
   <section class="projects" id="projects">
     <h2><span>MY</span> PROJECTS</h2>
     <div class="all-projects">
-      <projects1 />
-      <projects2 />
-      <projects3 />
+      <movieManager />
+      <umbrella />
+      <jobtrekSuivis />
     </div>
   </section>
 </template>
