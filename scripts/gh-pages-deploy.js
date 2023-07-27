@@ -1,6 +1,7 @@
-/* eslint-disable no-console */
-import { default as execa } from "execa";
-import { default as fs } from "fs";
+// eslint-disable-next-line no-undef
+const execa = require("execa");
+// eslint-disable-next-line no-undef
+const fs = require("fs");
 
 (async () => {
     try {
@@ -18,6 +19,7 @@ import { default as fs } from "fs";
         console.log("Successfully deployed, check your settings");
     } catch (e) {
         console.log(e.message);
+        // eslint-disable-next-line no-undef
         process.exit(1);
     }
 })();
