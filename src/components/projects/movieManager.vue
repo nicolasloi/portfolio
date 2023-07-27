@@ -38,7 +38,7 @@ export default {};
 }
 
 h3 {
-  font-size: var(--h2-font);
+  font-size: var(--nav-font);
   font-weight: 700;
   color: var(--primary-color);
   margin-top: 2.50rem;
@@ -61,7 +61,7 @@ h3 {
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: var(--p-font);
   font-weight: 400;
   margin-top: 2rem;
   margin-right: 3rem;

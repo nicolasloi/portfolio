@@ -59,7 +59,7 @@ h3 {
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: var(--p-font);
   font-weight: 400;
   margin-top: 2rem;
   margin-right: 3rem;
