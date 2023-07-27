@@ -37,6 +37,7 @@ h2 span {
 .all-projects{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   gap: 2.5rem;
   margin-top: 4rem;
   min-height: 400px;
@@ -46,6 +47,7 @@ h2 span {
   .all-projects {
     display: flex;
     flex-direction: column;
+    min-height: 400px;
   }
 }
 
