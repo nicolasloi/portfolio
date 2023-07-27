@@ -6,16 +6,17 @@ export default {};
   <div class="project">
     <h3>Jobtrek Suivis</h3>
     <div class="tools">
-      <h6>Laravel</h6>
-      <h6>Tailwind</h6>
-      <h6>DaisyUI</h6>
-      <h6>Meilisearch</h6>
-      <h6>TMDB API</h6>
+      <h6>C#</h6>
+      <h6>ReactJS</h6>
+      <h6>.Net Core</h6>
+      <h6>PostgreSQL</h6>
+      <h6>MaterialUI</h6>
     </div>
-    <p>This project is a movie manager that allows users to store the movies they have watched and rate them on a scale
-      of 1 to 5 stars,
-      as well as leave a comment. Users can log in, log out, and register to access their movie list.</p>
-    <img src="../../assets/screen_movieManager.png" alt="screen movieManager">
+    <p>The main objective of JobtrekSuivis is to allow companies and trainers to track and evaluate the skills of
+      apprentices throughout their apprenticeship program. The application provides an efficient way to collect, store,
+      and analyze data on the skills acquired by apprentices, facilitating the tracking of their progress and evaluation
+      of their performance.</p>
+    <img src="../../assets/screen_jobtrekSuivis.png" alt="screen JobtrekSuivis">
     <router-link class="btn" to="/projects">VIEW MORE</router-link>
   </div>
 </template>
