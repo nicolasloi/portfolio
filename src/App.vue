@@ -22,15 +22,4 @@ export default {
 </template>
 
 <style scoped>
-#up-button {
-  display: none;
-  /* éléments de style, vous pouvez mettre ce que vous voulez, ils ne sont là que pour l'exemple */
-  position: fixed;
-  bottom: 50px;
-  left: 50px;
-}
-
-#up-button.show {
-  display: block;
-}
 </style>
