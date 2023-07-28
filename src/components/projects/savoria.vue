@@ -20,7 +20,6 @@ export default {};
 
 .project {
   display: flex;
-  display: flex;
   flex-direction: column;
   background-color: var(--other-color);
   min-height: 600px;
