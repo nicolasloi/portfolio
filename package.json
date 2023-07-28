@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@jamesives/github-pages-deploy-action": "^4.4.3",
+    "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   }
 }
