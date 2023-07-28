@@ -8,11 +8,14 @@
       <router-link class="btn" to="/projects">GO BACK</router-link>
       <h2>Movie Manager</h2>
     </div>
-    <p>This project is a movie manager that allows users to store the movies they have watched and rate them on a
-      scale of 1 to 5 stars, as well as leave a comment.
-      Users can log in, log out, and register to access their movie list.</p>
+    <p>For this project I had 1 month (3 days/week). It was my first time using Laravel. So I decided to create my own movie manager.</p>
+    <p class="txt">The home page with hot movies and the most popular series. Data from TMDB api. </p>
     <img src="../../assets/home_movieList.png" alt="screen movieManager">
+    <p class="txt">The dashboard page allows you to view all the films you've seen once you've logged in.
+      You can sort them by rating or by name. You can also do a search (done with meilisearch).</p>
     <img src="../../assets/screen_movieManager.png" alt="screen movieManager">
+    <p class="txt">On this page we add a film. By adding the title, a cover image, a description, and a rating.
+      It's almost the same for the edit page</p>
     <img src="../../assets/create_movieList.png" alt="screen movieManager">
 
     <h3>Tools</h3>
@@ -64,8 +67,12 @@ h2 {
 img {
   max-width: 100%;
   width: auto;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   margin-right: 1.50rem;
+}
+
+.txt {
+  margin-top: 3rem;
 }
 
 h3 {
