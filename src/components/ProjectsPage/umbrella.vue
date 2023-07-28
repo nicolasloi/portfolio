@@ -8,8 +8,12 @@
       <router-link class="btn" to="/projects">GO BACK</router-link>
       <h2>Umbrella</h2>
     </div>
-    <p></p>
-    <p class="txt"></p>
+    <p>For this project, I had 10 days to complete it.
+      It was the first time I'd used PHP for a real project. It wasn't a solo project, I worked in pairs.
+      We decided to make Umbrella because we wanted to make a weather application,
+      but since that already existed, we invented a new concept.
+      The aim of the app is to find an activity based on the weather.</p>
+    <p class="txt">Home page, in the input field enter the city you are in</p>
     <img src="../../assets/umbrella_home.png" alt="screen umbrella">
     <p class="txt"></p>
     <img src="../../assets/umbrella_activity.png" alt="screen umbrella">
