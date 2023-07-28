@@ -5,7 +5,7 @@
 <template>
   <section class="page-project">
     <div class="title">
-      <router-link class="btn" to="./projects">GO BACK</router-link>
+      <router-link class="btn" to="/portfolio/projects">GO BACK</router-link>
       <h2>Movie Manager</h2>
     </div>
     <p>For this project I had 1 month (3 days/week). It was my first time using Laravel. So I decided to create my own movie manager.</p>

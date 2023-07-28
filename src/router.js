@@ -8,13 +8,13 @@ import jobtreksuivis from "@/components/ProjectsPage/jobtreksuivis.vue";
 import savoria from "@/components/ProjectsPage/savoria.vue";
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/projects', component: Projects },
-    { path: '/:pathMatch(.*)*', component: NotFound },
-    { path: '/projects/moviemanager', component: moviemanager },
-    { path: '/projects/umbrella', component: umbrella },
-    { path: '/projects/jobtreksuivis', component: jobtreksuivis },
-    { path: '/projects/savoria', component: savoria },
+    { path: '/portfolio/', component: Home },
+    { path: '/portfolio/projects', component: Projects },
+    { path: '/portfolio/:pathMatch(.*)*', component: NotFound },
+    { path: '/portfolio/projects/moviemanager', component: moviemanager },
+    { path: '/portfolio/projects/umbrella', component: umbrella },
+    { path: '/portfolio/projects/jobtreksuivis', component: jobtreksuivis },
+    { path: '/portfolio/projects/savoria', component: savoria },
 ]
 
 const router = createRouter({

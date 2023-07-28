@@ -12,13 +12,14 @@ export default {};
     </div>
     <p>A simple restaurant website done in basic HTML/CSS</p>
     <img src="../../assets/screen_savoria.png" alt="screen JobtrekSuivis">
-    <router-link class="btn" to="./projects/savoria">VIEW MORE</router-link>
+    <router-link class="btn" to="/portfolio/projects/savoria">VIEW MORE</router-link>
   </div>
 </template>
 
 <style scoped>
 
 .project {
+  display: flex;
   display: flex;
   flex-direction: column;
   background-color: var(--other-color);
