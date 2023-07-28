@@ -9,35 +9,6 @@ export default {
     FooterBar
   }
 }
-
-/* = Apparition du up button
------------------------------------------------ */
-let iScrollPos = 0;
-$(window).scroll(function () {
-  let iCurScrollPos = $(this).scrollTop();
-  if (iCurScrollPos > iScrollPos) {
-    $('#up-button').removeClass('show');
-  } else {
-    $('#up-button').addClass('show');
-  }
-  iScrollPos = iCurScrollPos;
-});
-
-/* = Smooth scroll
------------------------------------------------ */
-$('a[href*="#"]:not([href="#"])').click(function() {
-  if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
-    let target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    if (target.length) {
-      $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 1000);
-      return false;
-    }
-  }
-});
-
 </script>
 
 <template>
@@ -45,7 +16,6 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     <HeaderBar/>
     <div class="container">
       <router-view></router-view>
-      <a href="#content" id="up-button">Retour en haut</a>
     </div>
     <FooterBar/>
   </div>
