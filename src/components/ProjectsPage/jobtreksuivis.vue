@@ -18,9 +18,11 @@
     <img src="../../assets/jobtreksuivis_database.png" alt="screen jobtreksuivis database">
     <p class="txt">This is the user page. If you are logged in as a trainer, you can manage all your users.</p>
     <img src="../../assets/jobtreksuivis_user.png" alt="screen jobtreksuivis">
-    <p class="txt">On this page, we create a user. We add all the necessary information. It's almost the same for the edit page.</p>
+    <p class="txt">On this page, we create a user. We add all the necessary information. It's almost the same for the
+      edit page.</p>
     <img src="../../assets/jobtreksuivis_create.png" alt="screen jobtreksuivis">
-    <p class="txt">This is the page for creating a new profession with all the skills, etc. There's also a drak mode.</p>
+    <p class="txt">This is the page for creating a new profession with all the skills, etc. There's also a drak
+      mode.</p>
     <img src="../../assets/jobtreksuivis_darkmode_job.png" alt="screen jobtreksuivis">
 
     <h3>Tools</h3>
