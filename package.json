@@ -21,6 +21,7 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "@jamesives/github-pages-deploy-action": "^4.4.3",
     "vue-router": "^4.2.4"
   }
 }
