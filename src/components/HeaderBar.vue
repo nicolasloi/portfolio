@@ -28,16 +28,16 @@ export default {
 
 <template>
   <header>
-    <router-link to="/" :class="{ active: route.path === '/' }" class="logo">
+    <router-link to="/portfolio/" :class="{ active: route.path === '/portfolio/' }" class="logo">
       <h2>NICOLAS LOISON</h2>
     </router-link>
 
     <ul class="navbar">
       <li>
-        <router-link to="/" :class="{ active: route.path === '/' }">Home</router-link>
+        <router-link to="/portfolio/" :class="{ active: route.path === '/portfolio/' }">Home</router-link>
       </li>
       <li>
-        <router-link to="/projects" :class="{ active: route.path === '/projects' }">Projects</router-link>
+        <router-link to="/portfolio/projects" :class="{ active: route.path === '/portfolio/projects' }">Projects</router-link>
       </li>
     </ul>
 

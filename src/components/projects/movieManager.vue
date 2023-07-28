@@ -16,7 +16,7 @@ export default {};
       of 1 to 5 stars,
       as well as leave a comment. Users can log in, log out, and register to access their movie list.</p>
     <img src="../../assets/screen_movieManager.png" alt="screen movieManager">
-    <router-link class="btn" to="/projects/moviemanager">VIEW MORE</router-link>
+    <router-link class="btn" to="/portfolio/projects/moviemanager">VIEW MORE</router-link>
   </div>
 </template>
 
