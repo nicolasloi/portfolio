@@ -14,7 +14,7 @@ export default {};
     </div>
     <p>Umbrella is a web application that allows users to plan their activities based on weather forecasts.</p>
     <img src="../../assets/screen_umbrella.png" alt="screen umbrella">
-    <router-link class="btn" to="/portfolio/projects/umbrella">VIEW MORE</router-link>
+    <router-link class="btn" to="./projects/umbrella">VIEW MORE</router-link>
   </div>
 </template>
 

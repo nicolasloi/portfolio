@@ -5,7 +5,7 @@
 <template>
   <section class="page-project">
     <div class="title">
-      <router-link class="btn" to="/portfolio/projects">GO BACK</router-link>
+      <router-link class="btn" to="./projects">GO BACK</router-link>
       <h2>Jobtrek Suivis</h2>
     </div>
     <p>The main objective of JobtrekSuivis is to allow companies and trainers to track and evaluate the skills of

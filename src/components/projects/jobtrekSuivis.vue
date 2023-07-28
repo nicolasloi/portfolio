@@ -17,7 +17,7 @@ export default {};
       and analyze data on the skills acquired by apprentices, facilitating the tracking of their progress and evaluation
       of their performance.</p>
     <img src="../../assets/screen_jobtrekSuivis.png" alt="screen JobtrekSuivis">
-    <router-link class="btn" to="/portfolio/projects/jobtreksuivis">VIEW MORE</router-link>
+    <router-link class="btn" to="./jobtreksuivis">VIEW MORE</router-link>
   </div>
 </template>
 

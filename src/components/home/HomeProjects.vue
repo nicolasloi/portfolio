@@ -47,7 +47,7 @@ export default {};
         </div>
       </div>
     </div>
-    <router-link class="btn" to="/portfolio/projects">VIEW MORE</router-link>
+    <router-link class="btn" to="./projects">VIEW MORE</router-link>
   </section>
 </template>
 
