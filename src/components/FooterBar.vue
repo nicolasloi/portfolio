@@ -6,6 +6,7 @@ export default {};
   <footer>
     <div class="white-bar"></div>
     <p>© 2023 Nicolas Loison. Tous droits réservés.</p>
+    <a href="https://www.flaticon.com/free-icons/letter" title="letter icons">Favicon by Freepik</a>
   </footer>
 </template>
 
@@ -30,5 +31,9 @@ p {
   max-width: 76rem;
   width: 100%;
   margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--text-color);
 }
 </style>
