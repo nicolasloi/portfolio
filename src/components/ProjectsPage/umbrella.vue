@@ -15,9 +15,12 @@
       The aim of the app is to find an activity based on the weather.</p>
     <p class="txt">Home page, in the input field enter the city you are in</p>
     <img src="../../assets/umbrella_home.png" alt="screen umbrella">
-    <p class="txt"></p>
+    <p class="txt">On the left, all the weather information for the selected city. On the right,
+      the activities we propose in relation to the weather.
+      We've rated the activities from 1 to 5 for each type of weather.
+      There's also information on whether it's indoors or outdoors.</p>
     <img src="../../assets/umbrella_activity.png" alt="screen umbrella">
-    <p class="txt"></p>
+    <p class="txt">You will find below the weather information for the next few hours and days.</p>
     <img src="../../assets/umbrella_weather.png" alt="screen umbrella">
 
     <h3>Tools</h3>
