@@ -68,7 +68,7 @@ p {
 img {
   max-width: 100%;
   width: auto;
-  margin-top: 2rem;
+  margin-top: auto;
   margin-right: 1.50rem;
 }
 
