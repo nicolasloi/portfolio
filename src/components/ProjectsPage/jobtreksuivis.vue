@@ -8,16 +8,19 @@
       <router-link class="btn" to="/projects">GO BACK</router-link>
       <h2>Jobtrek Suivis</h2>
     </div>
-    <p></p>
-    <p class="txt"></p>
+    <p>The main objective of JobtrekSuivis is to allow companies and trainers to track and evaluate the skills of
+      apprentices throughout their apprenticeship program. The application provides an efficient way to collect, store,
+      and analyze data on the skills acquired by apprentices, facilitating the tracking of their progress and evaluation
+      of their performance.</p>
+    <p class="txt">Here's the site mockup, including the MCD database.</p>
     <img src="../../assets/jobtreksuivis_maquette.png" alt="screen jobtreksuivis">
-    <p class="txt"></p>
+    <p class="txt">My database diagram.</p>
     <img src="../../assets/jobtreksuivis_database.png" alt="screen jobtreksuivis database">
-    <p class="txt"></p>
+    <p class="txt">This is the user page. If you are logged in as a trainer, you can manage all your users.</p>
     <img src="../../assets/jobtreksuivis_user.png" alt="screen jobtreksuivis">
-    <p class="txt"></p>
+    <p class="txt">On this page, we create a user. We add all the necessary information. It's almost the same for the edit page.</p>
     <img src="../../assets/jobtreksuivis_create.png" alt="screen jobtreksuivis">
-    <p class="txt"></p>
+    <p class="txt">This is the page for creating a new profession with all the skills, etc. There's also a drak mode.</p>
     <img src="../../assets/jobtreksuivis_darkmode_job.png" alt="screen jobtreksuivis">
 
     <h3>Tools</h3>
