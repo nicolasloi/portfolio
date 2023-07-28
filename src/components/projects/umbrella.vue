@@ -63,6 +63,7 @@ p {
   font-weight: 400;
   margin-top: 2rem;
   margin-right: 3rem;
+  margin-bottom: 1rem;
 }
 
 img {
