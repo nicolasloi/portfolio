@@ -15,7 +15,7 @@ export default {};
     <p>This project is a movie manager that allows users to store the movies they have watched and rate them on a scale
       of 1 to 5 stars,
       as well as leave a comment. Users can log in, log out, and register to access their movie list.</p>
-    <img src="../../assets/screen_movieManager.png" alt="screen movieManager">
+    <img src="../../assets/screen_movieManager.jpg" alt="screen movieManager">
     <router-link class="btn" to="/portfolio/projects/moviemanager">VIEW MORE</router-link>
   </div>
 </template>

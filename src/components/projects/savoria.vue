@@ -11,7 +11,7 @@ export default {};
       <h6>JavaScript</h6>
     </div>
     <p>A simple restaurant website done in basic HTML/CSS</p>
-    <img src="../../assets/screen_savoria.png" alt="screen JobtrekSuivis">
+    <img src="../../assets/screen_savoria.jpg" alt="screen JobtrekSuivis">
     <router-link class="btn" to="/portfolio/projects/savoria">VIEW MORE</router-link>
   </div>
 </template>

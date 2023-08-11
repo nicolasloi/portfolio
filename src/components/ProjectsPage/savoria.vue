@@ -10,7 +10,7 @@
     </div>
     <p>A simple restaurant website done in basic HTML/CSS</p>
     <p class="txt">I had to make a website in html/css, it's for professional courses. So I decided to make it about a fictitious restaurant.</p>
-    <img src="../../assets/savoria_homepage.png" alt="screen savoria homepage">
+    <img src="../../assets/savoria_homepage.jpg" alt="screen savoria homepage">
 
     <h3>Tools</h3>
     <div class="tools">

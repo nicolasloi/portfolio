@@ -10,10 +10,10 @@
     </div>
     <p>For this project I had 1 month (3 days/week). It was my first time using Laravel. So I decided to create my own movie manager.</p>
     <p class="txt">The home page with hot movies and the most popular series. Data from TMDB api. </p>
-    <img src="../../assets/home_movieList.png" alt="screen movieManager">
+    <img src="../../assets/home_movieList.jpg" alt="screen movieManager">
     <p class="txt">The dashboard page allows you to view all the films you've seen once you've logged in.
       You can sort them by rating or by name. You can also do a search (done with meilisearch).</p>
-    <img src="../../assets/screen_movieManager.png" alt="screen movieManager">
+    <img src="../../assets/screen_movieManager.jpg" alt="screen movieManager">
     <p class="txt">On this page we add a film. By adding the title, a cover image, a description, and a rating.
       It's almost the same for the edit page</p>
     <img src="../../assets/create_movieList.png" alt="screen movieManager">
